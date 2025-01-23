@@ -1,0 +1,66 @@
+html,
+body {
+  height: inherit;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-around;
+  background-color: hsl(212, 45%, 89%);
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-height: inherit;
+  max-width: inherit;
+  background-color: white;
+  border-radius: 1rem;
+}
+.qr {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  /* padding: .5rem; */
+  /* height: 30vh; */
+  max-width: inherit; 
+  max-height: inherit;
+}
+
+
+.content,
+.attribution {
+  font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  padding: .5rem;
+  height: inherit;
+    width: inherit;
+}
+
+.heading{
+    font-weight: 700;
+}
+.message{
+    padding-top: inherit;
+    object-fit: contain;
+    /* padding: 0.25rem  1.5rem 0.25rem 1.5rem; */
+}
+
+/* .img1{
+    width: 35vh;
+    height: 35vw;
+} */
+.img1 img {
+    width: 100%;
+    /* height: auto; */
+    /* padding: 1rem; */
+    border-radius: .75rem;
+  }
+  
+
+  .card{
+    max-width: 300px;
+    padding: 1rem;
+  }
